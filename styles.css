@@ -1,0 +1,16 @@
+#formattedPayload {
+    background: #ffffff;
+    width: 40%;
+    min-height: 300px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+}
+
+#main div.hider > form {
+    display: inline-block;
+}
+
+#parseError{
+    color: crimson;
+}
