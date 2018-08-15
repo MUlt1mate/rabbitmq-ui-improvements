@@ -11,6 +11,12 @@
     display: inline-block;
 }
 
-#parseError{
+#parseError {
     color: crimson;
+}
+
+.payloadBtn {
+    cursor: pointer;
+    border-bottom: 1px dotted;
+    line-height: 30px;
 }
