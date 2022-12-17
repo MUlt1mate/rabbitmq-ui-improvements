@@ -1,21 +1,20 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "RabbitMQ UI",
   "short_name": "RabbitMQ UI",
   "description": "RabbitMQ web console improvements",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "icons": {
     "48": "img/icon48.png",
     "128": "img/icon128.png"
   },
   "author": "MUlt1mate",
-  "browser_action": {
+  "action": {
     "default_icon": "img/icon128.png",
     "default_title": "RabbitMQ UI"
   },
   "permissions": [
-    "storage",
-    "activeTab"
+    "storage"
   ],
   "content_scripts": [
     {
@@ -27,7 +26,8 @@
         "content.js"
       ],
       "matches": [
-        "http://*:15672/*"
+        "http://*:15672/*",
+        "https://*:15672/*"
       ]
     }
   ]

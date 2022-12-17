@@ -9,8 +9,8 @@
 
 ### Requirements
 
-* Tested on RabbitMQ 3.6.10
-* Currently requires url to match expression http://*:15672/*
+* Tested on RabbitMQ 3.11.5
+* Currently requires url to match expression http(s)://*:15672/*
 
 ## Screenshots
 
